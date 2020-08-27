@@ -7,13 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE037EBF20C77D0200869DF6 /* CommentaryCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE037EBE20C77D0200869DF6 /* CommentaryCellTableViewCell.swift */; };
+		AE15E66D20B6453500A7449D /* ClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15E66C20B6453500A7449D /* ClientModel.swift */; };
+		AE15E66F20B64F8C00A7449D /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE15E66E20B64F8C00A7449D /* HomeModel.swift */; };
+		AE19EE9D20A5059E00C343E6 /* ECSlidingViewController-master in Resources */ = {isa = PBXBuildFile; fileRef = AE19EE9C20A5059E00C343E6 /* ECSlidingViewController-master */; };
+		AE19EE9F20A50BA600C343E6 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE19EE9E20A50BA600C343E6 /* MenuTableViewController.swift */; };
+		AE1E31BD2352A216004D5418 /* AppelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1E31BC2352A216004D5418 /* AppelModel.swift */; };
+		AE367FAC2192DAE000C3FB99 /* CommentaireModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE367FAB2192DAE000C3FB99 /* CommentaireModel.swift */; };
+		AE367FAE21933C3600C3FB99 /* CommentaireProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE367FAD21933C3600C3FB99 /* CommentaireProtocol.swift */; };
+		AE38D2A92396FCB800510FD0 /* MateriauModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38D2A82396FCB800510FD0 /* MateriauModel.swift */; };
+		AE38D2AE23978F4400510FD0 /* DevisModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE38D2AD23978F4400510FD0 /* DevisModel.swift */; };
+		AE3B654221603E1F001E7B34 /* upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3B654121603E1F001E7B34 /* upload.swift */; };
+		AE5132C220A9172700A83166 /* SAVTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5132C120A9172700A83166 /* SAVTableViewCell.swift */; };
+		AE5280202387667000AB835B /* Techniciens_appelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE52801F2387667000AB835B /* Techniciens_appelModel.swift */; };
+		AE59F97A212E2758001F4CDD /* TechnicienModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE59F979212E2758001F4CDD /* TechnicienModel.swift */; };
+		AE617F29219C7901001329C7 /* Commentaires.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE617F28219C7901001329C7 /* Commentaires.swift */; };
+		AE617F2B219C7B43001329C7 /* Commentary2TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE617F2A219C7B43001329C7 /* Commentary2TableViewCell.swift */; };
 		AE6B185720A25A92006F69CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B185620A25A92006F69CC /* AppDelegate.swift */; };
-		AE6B185920A25A92006F69CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B185820A25A92006F69CC /* ViewController.swift */; };
 		AE6B185C20A25A92006F69CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6B185A20A25A92006F69CC /* Main.storyboard */; };
 		AE6B185E20A25A92006F69CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6B185D20A25A92006F69CC /* Assets.xcassets */; };
 		AE6B186120A25A92006F69CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6B185F20A25A92006F69CC /* LaunchScreen.storyboard */; };
 		AE6B186C20A25A92006F69CC /* finalbatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B186B20A25A92006F69CC /* finalbatoTests.swift */; };
 		AE6B187720A25A92006F69CC /* finalbatoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B187620A25A92006F69CC /* finalbatoUITests.swift */; };
+		AE6B188520A25FA9006F69CC /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B188420A25FA9006F69CC /* Menu.swift */; };
+		AE6B188720A26127006F69CC /* Appel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B188620A26127006F69CC /* Appel.swift */; };
+		AE6B188920A267F9006F69CC /* Devis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B188820A267F9006F69CC /* Devis.swift */; };
+		AE6B188B20A2682D006F69CC /* SAV.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B188A20A2682D006F69CC /* SAV.swift */; };
+		AE6B59AD20E239070025E3A9 /* IdentificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B59AC20E239070025E3A9 /* IdentificationViewController.swift */; };
+		AE7847922395E7C500BA1FBD /* ChantierInter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7847912395E7C500BA1FBD /* ChantierInter.swift */; };
+		AE7847952395E98900BA1FBD /* Materiaux.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7847942395E98900BA1FBD /* Materiaux.swift */; };
+		AE7847972395E9A200BA1FBD /* MateriauxRec.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7847962395E9A200BA1FBD /* MateriauxRec.swift */; };
+		AE7847992395E9EA00BA1FBD /* MateriauxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7847982395E9EA00BA1FBD /* MateriauxTableViewCell.swift */; };
+		AE78479B2395EA5300BA1FBD /* MateriauxRecTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78479A2395EA5300BA1FBD /* MateriauxRecTableViewCell.swift */; };
+		AE78479D2395F0D000BA1FBD /* ChantierModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE78479C2395F0D000BA1FBD /* ChantierModel.swift */; };
+		AEC52A0620C37C2900A5A441 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC52A0520C37C2900A5A441 /* test.swift */; };
+		AED05B6120B4BFF400307157 /* DevisTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED05B6020B4BFF400307157 /* DevisTableViewCell.swift */; };
+		AED05B6320B4C01E00307157 /* AppelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED05B6220B4C01E00307157 /* AppelTableViewCell.swift */; };
+		AED05B6520B4C17800307157 /* ChantierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED05B6420B4C17800307157 /* ChantierTableViewCell.swift */; };
+		AED05B6720B4C6D200307157 /* Chantier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED05B6620B4C6D200307157 /* Chantier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +65,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE037EBE20C77D0200869DF6 /* CommentaryCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaryCellTableViewCell.swift; sourceTree = "<group>"; };
+		AE15E66C20B6453500A7449D /* ClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientModel.swift; sourceTree = "<group>"; };
+		AE15E66E20B64F8C00A7449D /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		AE19EE9C20A5059E00C343E6 /* ECSlidingViewController-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "ECSlidingViewController-master"; path = "../../../../../Downloads/ECSlidingViewController-master"; sourceTree = "<group>"; };
+		AE19EE9E20A50BA600C343E6 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		AE1E31BC2352A216004D5418 /* AppelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppelModel.swift; sourceTree = "<group>"; };
+		AE367FAB2192DAE000C3FB99 /* CommentaireModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaireModel.swift; sourceTree = "<group>"; };
+		AE367FAD21933C3600C3FB99 /* CommentaireProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentaireProtocol.swift; sourceTree = "<group>"; };
+		AE38D2A82396FCB800510FD0 /* MateriauModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriauModel.swift; sourceTree = "<group>"; };
+		AE38D2AD23978F4400510FD0 /* DevisModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevisModel.swift; sourceTree = "<group>"; };
+		AE3B654121603E1F001E7B34 /* upload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = upload.swift; sourceTree = "<group>"; };
+		AE5132C120A9172700A83166 /* SAVTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAVTableViewCell.swift; sourceTree = "<group>"; };
+		AE52801F2387667000AB835B /* Techniciens_appelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Techniciens_appelModel.swift; sourceTree = "<group>"; };
+		AE59F979212E2758001F4CDD /* TechnicienModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechnicienModel.swift; sourceTree = "<group>"; };
+		AE617F28219C7901001329C7 /* Commentaires.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commentaires.swift; sourceTree = "<group>"; };
+		AE617F2A219C7B43001329C7 /* Commentary2TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commentary2TableViewCell.swift; sourceTree = "<group>"; };
 		AE6B185320A25A92006F69CC /* finalbato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalbato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6B185620A25A92006F69CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE6B185820A25A92006F69CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AE6B185B20A25A92006F69CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE6B185D20A25A92006F69CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE6B186020A25A92006F69CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +93,22 @@
 		AE6B187220A25A92006F69CC /* finalbatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalbatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE6B187620A25A92006F69CC /* finalbatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalbatoUITests.swift; sourceTree = "<group>"; };
 		AE6B187820A25A92006F69CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6B188420A25FA9006F69CC /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		AE6B188620A26127006F69CC /* Appel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appel.swift; sourceTree = "<group>"; };
+		AE6B188820A267F9006F69CC /* Devis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devis.swift; sourceTree = "<group>"; };
+		AE6B188A20A2682D006F69CC /* SAV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SAV.swift; sourceTree = "<group>"; };
+		AE6B59AC20E239070025E3A9 /* IdentificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationViewController.swift; sourceTree = "<group>"; };
+		AE7847912395E7C500BA1FBD /* ChantierInter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantierInter.swift; sourceTree = "<group>"; };
+		AE7847942395E98900BA1FBD /* Materiaux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Materiaux.swift; sourceTree = "<group>"; };
+		AE7847962395E9A200BA1FBD /* MateriauxRec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriauxRec.swift; sourceTree = "<group>"; };
+		AE7847982395E9EA00BA1FBD /* MateriauxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriauxTableViewCell.swift; sourceTree = "<group>"; };
+		AE78479A2395EA5300BA1FBD /* MateriauxRecTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriauxRecTableViewCell.swift; sourceTree = "<group>"; };
+		AE78479C2395F0D000BA1FBD /* ChantierModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantierModel.swift; sourceTree = "<group>"; };
+		AEC52A0520C37C2900A5A441 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		AED05B6020B4BFF400307157 /* DevisTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevisTableViewCell.swift; sourceTree = "<group>"; };
+		AED05B6220B4C01E00307157 /* AppelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppelTableViewCell.swift; sourceTree = "<group>"; };
+		AED05B6420B4C17800307157 /* ChantierTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantierTableViewCell.swift; sourceTree = "<group>"; };
+		AED05B6620B4C6D200307157 /* Chantier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chantier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +136,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE38D2AA23978B9400510FD0 /* SAV */ = {
+			isa = PBXGroup;
+			children = (
+				AE15E66C20B6453500A7449D /* ClientModel.swift */,
+				AE5132C120A9172700A83166 /* SAVTableViewCell.swift */,
+				AE6B188A20A2682D006F69CC /* SAV.swift */,
+			);
+			path = SAV;
+			sourceTree = "<group>";
+		};
+		AE38D2AB23978BDB00510FD0 /* Appels */ = {
+			isa = PBXGroup;
+			children = (
+				AE52801F2387667000AB835B /* Techniciens_appelModel.swift */,
+				AED05B6220B4C01E00307157 /* AppelTableViewCell.swift */,
+				AE1E31BC2352A216004D5418 /* AppelModel.swift */,
+				AE6B188620A26127006F69CC /* Appel.swift */,
+			);
+			name = Appels;
+			sourceTree = "<group>";
+		};
+		AE38D2AC23978C7100510FD0 /* Devis */ = {
+			isa = PBXGroup;
+			children = (
+				AED05B6020B4BFF400307157 /* DevisTableViewCell.swift */,
+				AE6B188820A267F9006F69CC /* Devis.swift */,
+				AE38D2AD23978F4400510FD0 /* DevisModel.swift */,
+			);
+			path = Devis;
+			sourceTree = "<group>";
+		};
 		AE6B184A20A25A92006F69CC = {
 			isa = PBXGroup;
 			children = (
+				AE19EE9C20A5059E00C343E6 /* ECSlidingViewController-master */,
 				AE6B185520A25A92006F69CC /* finalbato */,
 				AE6B186A20A25A92006F69CC /* finalbatoTests */,
 				AE6B187520A25A92006F69CC /* finalbatoUITests */,
@@ -97,12 +191,27 @@
 		AE6B185520A25A92006F69CC /* finalbato */ = {
 			isa = PBXGroup;
 			children = (
+				AE38D2AC23978C7100510FD0 /* Devis */,
+				AE38D2AB23978BDB00510FD0 /* Appels */,
+				AE38D2AA23978B9400510FD0 /* SAV */,
+				AE7847932395E88500BA1FBD /* Chantiers */,
 				AE6B185620A25A92006F69CC /* AppDelegate.swift */,
-				AE6B185820A25A92006F69CC /* ViewController.swift */,
 				AE6B185A20A25A92006F69CC /* Main.storyboard */,
-				AE6B185D20A25A92006F69CC /* Assets.xcassets */,
+				AE19EE9E20A50BA600C343E6 /* MenuTableViewController.swift */,
 				AE6B185F20A25A92006F69CC /* LaunchScreen.storyboard */,
+				AE6B185D20A25A92006F69CC /* Assets.xcassets */,
 				AE6B186220A25A92006F69CC /* Info.plist */,
+				AE6B188420A25FA9006F69CC /* Menu.swift */,
+				AE617F28219C7901001329C7 /* Commentaires.swift */,
+				AE617F2A219C7B43001329C7 /* Commentary2TableViewCell.swift */,
+				AE59F979212E2758001F4CDD /* TechnicienModel.swift */,
+				AE367FAB2192DAE000C3FB99 /* CommentaireModel.swift */,
+				AEC52A0520C37C2900A5A441 /* test.swift */,
+				AE037EBE20C77D0200869DF6 /* CommentaryCellTableViewCell.swift */,
+				AE6B59AC20E239070025E3A9 /* IdentificationViewController.swift */,
+				AE15E66E20B64F8C00A7449D /* HomeModel.swift */,
+				AE3B654121603E1F001E7B34 /* upload.swift */,
+				AE367FAD21933C3600C3FB99 /* CommentaireProtocol.swift */,
 			);
 			path = finalbato;
 			sourceTree = "<group>";
@@ -123,6 +232,22 @@
 				AE6B187820A25A92006F69CC /* Info.plist */,
 			);
 			path = finalbatoUITests;
+			sourceTree = "<group>";
+		};
+		AE7847932395E88500BA1FBD /* Chantiers */ = {
+			isa = PBXGroup;
+			children = (
+				AED05B6620B4C6D200307157 /* Chantier.swift */,
+				AED05B6420B4C17800307157 /* ChantierTableViewCell.swift */,
+				AE7847912395E7C500BA1FBD /* ChantierInter.swift */,
+				AE7847942395E98900BA1FBD /* Materiaux.swift */,
+				AE7847962395E9A200BA1FBD /* MateriauxRec.swift */,
+				AE7847982395E9EA00BA1FBD /* MateriauxTableViewCell.swift */,
+				AE78479A2395EA5300BA1FBD /* MateriauxRecTableViewCell.swift */,
+				AE78479C2395F0D000BA1FBD /* ChantierModel.swift */,
+				AE38D2A82396FCB800510FD0 /* MateriauModel.swift */,
+			);
+			path = Chantiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +312,11 @@
 		AE6B184B20A25A92006F69CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Ludus Académie";
 				TargetAttributes = {
 					AE6B185220A25A92006F69CC = {
@@ -232,6 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE19EE9D20A5059E00C343E6 /* ECSlidingViewController-master in Resources */,
 				AE6B186120A25A92006F69CC /* LaunchScreen.storyboard in Resources */,
 				AE6B185E20A25A92006F69CC /* Assets.xcassets in Resources */,
 				AE6B185C20A25A92006F69CC /* Main.storyboard in Resources */,
@@ -259,8 +388,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE6B185920A25A92006F69CC /* ViewController.swift in Sources */,
+				AE6B188520A25FA9006F69CC /* Menu.swift in Sources */,
+				AED05B6120B4BFF400307157 /* DevisTableViewCell.swift in Sources */,
+				AE7847992395E9EA00BA1FBD /* MateriauxTableViewCell.swift in Sources */,
+				AE7847952395E98900BA1FBD /* Materiaux.swift in Sources */,
+				AED05B6720B4C6D200307157 /* Chantier.swift in Sources */,
+				AE6B188920A267F9006F69CC /* Devis.swift in Sources */,
+				AE3B654221603E1F001E7B34 /* upload.swift in Sources */,
+				AE15E66D20B6453500A7449D /* ClientModel.swift in Sources */,
+				AE5280202387667000AB835B /* Techniciens_appelModel.swift in Sources */,
+				AE78479B2395EA5300BA1FBD /* MateriauxRecTableViewCell.swift in Sources */,
+				AED05B6520B4C17800307157 /* ChantierTableViewCell.swift in Sources */,
+				AE5132C220A9172700A83166 /* SAVTableViewCell.swift in Sources */,
+				AE367FAC2192DAE000C3FB99 /* CommentaireModel.swift in Sources */,
+				AE617F2B219C7B43001329C7 /* Commentary2TableViewCell.swift in Sources */,
+				AE7847972395E9A200BA1FBD /* MateriauxRec.swift in Sources */,
+				AE59F97A212E2758001F4CDD /* TechnicienModel.swift in Sources */,
+				AE38D2A92396FCB800510FD0 /* MateriauModel.swift in Sources */,
+				AE367FAE21933C3600C3FB99 /* CommentaireProtocol.swift in Sources */,
+				AE19EE9F20A50BA600C343E6 /* MenuTableViewController.swift in Sources */,
+				AE617F29219C7901001329C7 /* Commentaires.swift in Sources */,
+				AE6B188720A26127006F69CC /* Appel.swift in Sources */,
+				AE7847922395E7C500BA1FBD /* ChantierInter.swift in Sources */,
+				AE15E66F20B64F8C00A7449D /* HomeModel.swift in Sources */,
+				AE38D2AE23978F4400510FD0 /* DevisModel.swift in Sources */,
+				AED05B6320B4C01E00307157 /* AppelTableViewCell.swift in Sources */,
+				AE6B188B20A2682D006F69CC /* SAV.swift in Sources */,
+				AE037EBF20C77D0200869DF6 /* CommentaryCellTableViewCell.swift in Sources */,
 				AE6B185720A25A92006F69CC /* AppDelegate.swift in Sources */,
+				AE6B59AD20E239070025E3A9 /* IdentificationViewController.swift in Sources */,
+				AE78479D2395F0D000BA1FBD /* ChantierModel.swift in Sources */,
+				AE1E31BD2352A216004D5418 /* AppelModel.swift in Sources */,
+				AEC52A0620C37C2900A5A441 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +488,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +496,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -347,6 +508,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6R2QLFM35L;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -363,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,6 +548,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +556,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -404,6 +568,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6R2QLFM35L;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -414,7 +579,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -522,7 +687,7 @@
 				AE6B187A20A25A92006F69CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		AE6B187B20A25A92006F69CC /* Build configuration list for PBXNativeTarget "finalbato" */ = {
 			isa = XCConfigurationList;
@@ -531,7 +696,7 @@
 				AE6B187D20A25A92006F69CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		AE6B187E20A25A92006F69CC /* Build configuration list for PBXNativeTarget "finalbatoTests" */ = {
 			isa = XCConfigurationList;
@@ -540,7 +705,7 @@
 				AE6B188020A25A92006F69CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		AE6B188120A25A92006F69CC /* Build configuration list for PBXNativeTarget "finalbatoUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,7 +714,7 @@
 				AE6B188320A25A92006F69CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
