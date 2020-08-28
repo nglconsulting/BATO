@@ -64,8 +64,13 @@ class IdentificationViewController: UIViewController , UITextFieldDelegate, Home
     
     @IBAction func validation(_ sender: UIButton) {
         var testid = false
-        homeModel.downloadtechs(de: nametext.text!, mdp: mdptext.text!)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3){
+        
+        let nomtec = nametext.text!
+        let mdptec = mdptext.text!
+        DispatchQueue.main.async{
+            self.homeModel.downloadtechs(de: nomtec, mdp: mdptec)
+        }
+        DispatchQueue.main.async{
             for i in 0..<self.feedItems.count{
                 let item: TechnicienModel = self.feedItems[i] as! TechnicienModel
             
