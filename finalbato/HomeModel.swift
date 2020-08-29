@@ -25,6 +25,7 @@ class HomeModel: NSObject, URLSessionDataDelegate{
     weak var delegate: HomeModelProtocol!
     
     var data = Data()
+    let group = DispatchGroup()
     
     var tablechoix = "test"
     
@@ -355,9 +356,10 @@ class HomeModel: NSObject, URLSessionDataDelegate{
         case "techniciens":
             
             
+            
             for i in 0 ..< jsonResult.count
             {
-                
+                group.enter()
                 jsonElement = jsonResult[i] as! NSDictionary
                 
                 
@@ -374,15 +376,16 @@ class HomeModel: NSObject, URLSessionDataDelegate{
                
                 
                 techniciens.add(technicien)
-                
+                self.group.leave()
                 
                 
             }
-           DispatchQueue.main.async(execute: { () -> Void in
-                
+          // DispatchQueue.main.async(execute: { () -> Void in
+                group.notify(queue: .main) {
                 self.delegate.itemsDownloaded2(items: techniciens)
-                
-            })
+                print("appel de la fonction")
+            }
+           // })
             
             
             

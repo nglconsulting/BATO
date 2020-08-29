@@ -20,7 +20,7 @@ let global=Global()
 class IdentificationViewController: UIViewController , UITextFieldDelegate, HomeModelProtocol{
     
     let homeModel = HomeModel()
-          
+     let myGroup = DispatchGroup()
     var feedItems: NSArray = NSArray()
 //    var selectedTechnicien : TechnicienModel = TechnicienModel()
     
@@ -52,7 +52,9 @@ class IdentificationViewController: UIViewController , UITextFieldDelegate, Home
     }
     
     internal func itemsDownloaded2(items: NSArray){
+        
         feedItems = items
+        myGroup.leave() //remet le groupe en equilibre et permet la suite du code.
         
     }
     
@@ -64,8 +66,15 @@ class IdentificationViewController: UIViewController , UITextFieldDelegate, Home
     
     @IBAction func validation(_ sender: UIButton) {
         var testid = false
-        homeModel.downloadtechs(de: nametext.text!, mdp: mdptext.text!)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.3){
+        
+        let nomtec = nametext.text!
+        let mdptec = mdptext.text!
+        myGroup.enter()
+            self.homeModel.downloadtechs(de: nomtec, mdp: mdptec)
+       //permet de lire la suite du code UNIQUEMENT lorsque downloadtechs a fini.
+        myGroup.notify(queue: .main) {
+                
+           print("appel de feeditems")
             for i in 0..<self.feedItems.count{
                 let item: TechnicienModel = self.feedItems[i] as! TechnicienModel
             
